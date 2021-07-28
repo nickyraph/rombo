@@ -37,6 +37,7 @@ Author:     :   codeglamour
 /*-------------------------------------------------------------------------------------
     Default CSS
 ---------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 html,
 body {
@@ -48,7 +49,7 @@ body {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     color: #373737;
     position: relative
@@ -172,7 +173,7 @@ blockquote {
     color: #161918;
 }
 .s-color {
-    color: #f7ce3e;
+    color: #71bf44;
 }
 .p-color1 {
     color: rgb(203, 52, 43);
@@ -218,26 +219,26 @@ blockquote {
 }
 
 .btn-light{
-    border-color: #f7ce3e!important;
+    border-color: #71bf44!important;
     background-color: transparent !important;
-    color: #f7ce3e!important;
+    color: #71bf44!important;
 }
 
 .btn-light:hover{
     color: #161918 !important;
-    border-color: #f7ce3e;
-    background-color: #f7ce3e !important;
+    border-color: #71bf44;
+    background-color: #71bf44 !important;
 }
 
 .btn-primary{
     color: #161918 !important;
-    border-color: #f7ce3e;
-    background-color: #f7ce3e;
+    border-color: #71bf44;
+    background-color: #71bf44;
 }
 .btn-primary:hover {
-    border-color: #f7ce3e!important;
+    border-color: #71bf44!important;
     background-color: transparent !important;
-    color: #f7ce3e!important;
+    color: #71bf44!important;
 }
 .btn-outline-primary:hover{
     color: #fff !important;
@@ -362,7 +363,8 @@ blockquote {
 }
 
 .main_navbar{
-   background: #161918!important;
+    position: absolute;
+    background: rgba(0,0,0, .6);
     left: 0;
     width: 100%;
     z-index: 99;
@@ -374,7 +376,6 @@ blockquote {
 }
 
 .main_navbar.sticky {
-   background: #161918!important;
     box-shadow: 0 -1px 10px rgba(193, 174, 174, 0.1);
     -webkit-box-shadow: 0 -1px 10px rgba(193, 174, 174, 0.1);
     min-height: 72px;
@@ -400,24 +401,24 @@ blockquote {
 }
 
 .navbar-button a{
-    background-color: #f7ce3e;
-    color: #161918;
+    background-color: #71bf44;
+    color: #fff;
     font-weight: 500;
     display: inline-block;
     border-radius: 20px;
     padding: 8px 20px;
     margin-left: 10px;
-    border: 1px solid #f7ce3e;
+    border: 1px solid #71bf44;
 }
 
 .navbar-button a:hover{
     background-color: #161918;
-    color: #f7ce3e;
-    border: 1px solid #f7ce3e;
+    color: #71bf44;
+    border: 1px solid #71bf44;
 }
 
 .navbar-dark .navbar-brand {
-    color: #F7CE3E !important;
+    color: #71bf44 !important;
 }
 
 .navbar-brand img{
@@ -437,7 +438,7 @@ blockquote {
     background: #000;
 }
 #main-banner_particles {
-    background-image: url(../img/slider-3.jpg);
+    background-image: url(../img/front.jpg);
     background-position: top;
     z-index: 0;
 }
@@ -447,7 +448,7 @@ blockquote {
     z-index: 1;
 }
 .caption-content {
-    padding: 0% 10% 0
+    padding: 0% 10% 0;
     z-index:10000;
 }
 
@@ -462,11 +463,13 @@ blockquote {
 }
 
 .caption-content h2 span{
-  color: #f7ce3e;
+  color: #71bf44;
+
 }
 
 .caption-content h1 span{
-  color: #f7ce3e;
+  color: #71bf44;
+    font-weight: bold;
 }
 
 .caption-content p{
@@ -506,12 +509,12 @@ blockquote {
 
 .section-heading1 {
     margin-bottom: 0;
-    color: #f7ce3e;
+    color: #71bf44;
     font-size: 34px;
 }
 
 .offer-section .btn{
-    background-color: #f7ce3e;
+    background-color: #71bf44;
     color: #161918;
     font-weight: 500;
     display: inline-block;
@@ -522,8 +525,8 @@ blockquote {
 
 .offer-section .btn:hover{
     background-color: #161918;
-    color: #f7ce3e;
-    border:1px solid #f7ce3e;
+    color: #71bf44;
+    border:1px solid #71bf44;
 }
 .btn-default:hover {
     color: #fff;
@@ -577,7 +580,7 @@ blockquote {
 }
 
 .about_content h5 {
-    color: #f7ce3e;
+    color: #71bf44;
     margin-bottom: 20px;
     font-weight: 600;
     margin-top: 0px;
@@ -595,14 +598,14 @@ blockquote {
     margin-top: 5px;
     padding: 4px 35px;
     display: inline-block;
-    color: #f7ce3e;
+    color: #71bf44;
     border: 1px solid;
 }
 
 .btn.btn-sm-pro:hover {
-    background-color: #f7ce3e; 
+    background-color: #71bf44;
     color: #161918;
-    border: 1px solid #f7ce3e;
+    border: 1px solid #71bf44;
 }
 
 
@@ -640,7 +643,7 @@ blockquote {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #f7ce3e;
+    background: #71bf44;
     border: 5px solid #fff;
     box-shadow: 0 0 0 3px #161918;
     position: absolute;
@@ -671,7 +674,7 @@ blockquote {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
-    color: #f7ce3e;
+    color: #71bf44;
 }
 .main-timeline .description{
     padding: 0 15px;
@@ -697,7 +700,7 @@ blockquote {
     left: 15px;
 }
 .main-timeline .timeline:nth-child(2n):before{
-    background: #f7ce3e;
+    background: #71bf44;
     box-shadow: 0 0 0 3px #161918;
 }
 .main-timeline .timeline:nth-child(2n) .title{
@@ -705,7 +708,7 @@ blockquote {
     box-shadow: 0 0 0 1px #161918;
 }
 .main-timeline .timeline:nth-child(3n):before{
-    background: #f7ce3e;
+    background: #71bf44;
     box-shadow: 0 0 0 3px #161918;
 }
 .main-timeline .timeline:nth-child(3n) .title{
@@ -713,7 +716,7 @@ blockquote {
     box-shadow: 0 0 0 1px #161918;
 }
 .main-timeline .timeline:nth-child(4n):before{
-    background: #f7ce3e;
+    background: #71bf44;
     box-shadow: 0 0 0 3px #161918;
 }
 .main-timeline .timeline:nth-child(4n) .title{
@@ -741,7 +744,7 @@ blockquote {
 .serviceBox .service-content{
     position: relative;
     background: #161918;
-    color: #f7ce3e;
+    color: #71bf44;
     padding: 50px 30px 30px;
 }
 .serviceBox .service-icon{
@@ -760,7 +763,7 @@ blockquote {
 .serviceBox .service-icon i{
     font-size: 30px;
     line-height: 70px;
-    color: #f7ce3e;
+    color: #71bf44;
     transform: rotate(-45deg);
 }
 .serviceBox .title{
@@ -781,15 +784,15 @@ blockquote {
     font-size: 14px;
     font-weight: 500;
     color: #161918;
-    background: #f7ce3e;
+    background: #71bf44;
     text-transform: capitalize;
     transition: all 0.5s ease 0s;
-    border: 1px solid #f7ce3e;
+    border: 1px solid #71bf44;
 }
 .serviceBox .read-more:hover{
-    color: #f7ce3e;
+    color: #71bf44;
     background: #161918;
-    border:1px solid #f7ce3e;
+    border:1px solid #71bf44;
 }
 .serviceBox.middle .service-content{
     padding: 30px 30px 50px;
@@ -835,7 +838,7 @@ blockquote {
 
 .feature-single i {
     font-size: 60px;
-    color: #f7ce3e;
+    color: #71bf44;
 }
 
 .feature-single img {
@@ -860,7 +863,7 @@ blockquote {
     background: #000;
 }
 .contact-now-button a {
-    background-color: #f7ce3e;
+    background-color: #71bf44;
     color: #161918;
     font-weight: 500;
     display: inline-block;
@@ -872,7 +875,7 @@ blockquote {
 
 .contact-now-button a:hover {
     background-color: #161918;
-    color: #f7ce3e;
+    color: #71bf44;
 }
 
 
@@ -946,7 +949,7 @@ blockquote {
     transform: rotate(45deg);
 }
 .pricingTable .value{
-    color: #f7ce3e;
+    color: #71bf44;
     transform: rotate(-45deg);
     position: relative;
 }
@@ -979,7 +982,7 @@ blockquote {
     content: "\f00c";
     font-family: "Font Awesome 5 Free"; font-weight: 900;
     font-size: 20px;
-    color: #f7ce3e;
+    color: #71bf44;
     margin-right: 10px;
 }
 .pricingTable .pricingTable-signup{
@@ -998,7 +1001,7 @@ blockquote {
     margin-right: 8px;
 }
 .pricingTable .pricingTable-signup:hover{
-    background: #f7ce3e;
+    background: #71bf44;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -1038,7 +1041,7 @@ blockquote {
     height: 80px;
     margin: 0 auto 10px;
     font-size: 36px;
-    color: #f7ce3e;
+    color: #71bf44;
     position: relative;
     top: -15px;
     padding-top: 8px;
@@ -1066,7 +1069,7 @@ blockquote {
     display: block;
     font-size: 25px;
     font-weight: 700;
-    color: #f7ce3e;
+    color: #71bf44;
 }
 /*-------------------------------------------------------------------------------------
     Team
@@ -1150,7 +1153,7 @@ blockquote {
     line-height: 35px;
     background: #161918;
     font-size: 16px;
-    color: #f7ce3e;
+    color: #71bf44;
     margin: 0 15px 0 0;
     transform: rotate(45deg);
     transition: all 0.3s ease-in-out 0s;
@@ -1333,7 +1336,7 @@ blockquote {
     min-height:28px;
     line-height: 28px;
     text-align: center;
-    background: #f7ce3e;
+    background: #71bf44;
     position: absolute;
     top: -30px;
     left: 30px;
@@ -1391,7 +1394,7 @@ blockquote {
     color:#333;
 }
 .post-slide .post-bar li i{
-    color: #f7ce3e;
+    color: #71bf44;
     margin-right: 5px;
 }
 
@@ -1418,7 +1421,7 @@ blockquote {
 }
 
 .s-cl-2 {
-   background: #f7ce3e;
+   background: #71bf44;
 }
 
 .s-cl-2 h3{
@@ -1508,9 +1511,9 @@ blockquote {
 
 .footer-social-area ul li a {
     display: block;
-    color: #f7ce3e;
+    color: #71bf44;
     font-size: 20px;
-    border: 1px solid #f7ce3e;
+    border: 1px solid #71bf44;
     padding: 4px 8px;
     margin: 0 7px;
     height: 36px;
@@ -1520,7 +1523,7 @@ blockquote {
 }
 
 .footer-social-area ul li a:hover {
-    background-color: #f7ce3e;
+    background-color: #71bf44;
     color: #1a1e21;
 }
 
@@ -1535,7 +1538,7 @@ blockquote {
 }
 
 .footer-links li a:hover {
-    color: #f7ce3e;
+    color: #71bf44;
 }
 
 #footer .footer-top .footer-newsletter{
@@ -1575,7 +1578,7 @@ blockquote {
 }
 
 .click-to-top > a {
-    background-color: #f7ce3e;
+    background-color: #71bf44;
     color: #161918;
     display: block;
     font-size: 14px;
@@ -1658,7 +1661,7 @@ blockquote {
 
 .widget.category ul li a:hover,
 .recent-post-single .post-cont h5 a:hover {
-    color: #f7ce3e;
+    color: #71bf44;
 }
 
 .widget.tags span a {
