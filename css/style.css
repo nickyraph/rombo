@@ -369,7 +369,6 @@ blockquote {
     width: 100%;
     z-index: 99;
     top: 0;
-    padding: 10px 4%;
     -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -854,7 +853,7 @@ blockquote {
 ---------------------------------------------------------------------------------------*/
 
 #contact-now {
-    background-image: url(../img/count-area-bg.jpg);
+    background-image: url(../img/count.jpg);
     background-attachment: fixed;
     padding: 80px 0 80px
 }
