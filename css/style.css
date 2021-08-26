@@ -437,8 +437,9 @@ blockquote {
     background: #000;
 }
 #main-banner_particles {
-    background-image: url(../img/front.jpg);
+    background-image: url(../img/rombo.jpg);
     background-position: top;
+    background-attachment: fixed;
     z-index: 0;
 }
 #main-banner_particles  .overlay{
@@ -853,7 +854,7 @@ blockquote {
 ---------------------------------------------------------------------------------------*/
 
 #contact-now {
-    background-image: url(../img/count.jpg);
+    background-image: url(../img/front.jpg);
     background-attachment: fixed;
     padding: 80px 0 80px
 }
